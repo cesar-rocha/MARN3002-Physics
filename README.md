@@ -1,7 +1,5 @@
-# Physics Module of Introduction to Marine Sciences II (MARN-3002)
+# Physics Module of Introduction to Marine Sciences II
+Department of Marine Sciences, University of Connecticut
+Course number: MARN-3002
+Insttructor: Cesar B Rocha
 
-Cesar B Rocha
-
-Department of Marine Sciences
-
-University of Connecticut
