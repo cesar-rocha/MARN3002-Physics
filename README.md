@@ -1,6 +1,7 @@
-# MARN3002-Physics
-Physics Module of Introduction to Marine Sciences II (MARN-3002)
+# Physics Module of Introduction to Marine Sciences II (MARN-3002)
 
 Cesar B Rocha
+
 Department of Marine Sciences
+
 University of Connecticut
