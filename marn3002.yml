@@ -4,7 +4,7 @@ channels:
     - defaults
     - ioam
 dependencies:
-    - python=3.6    # Python version 3.6
+    - python=3.8    # Python version 3.8
     - bottleneck    # C-optimized array functions for NumPy
     - cartopy       # Geographic plotting toolkit
     - cython        # Transpile Python->C
