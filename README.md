@@ -2,7 +2,7 @@
 Course number: MARN-3002</br>
 Department of Marine Sciences</br>
 University of Connecticut</br>
-Insttructor: Cesar B Rocha
+Instructor: Cesar B Rocha
 
 ## General Course Information
 
