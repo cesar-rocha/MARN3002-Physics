@@ -6,6 +6,14 @@ Insttructor: Cesar B Rocha
 
 ## General Course Information
 
+### Program
+
+### Cronograma
+| Lecture | Date          | Content                              | Reading         |
+|:----:|:--------------|:--------------------------------------| -------------------:|
+| 01   | 2021-01-18    | Logistics and Introduction            |                     |
+
+
 ### My Teaching Philosophy
 
 ### What You Should Expect From Me
