@@ -23,7 +23,7 @@ Instructor: Cesar B Rocha
 | 11   | 2021-02-25    | The Gulf Stream and Its Volume and Heat Transport  |         |     HW #6        |
 | 12   | 2021-03-02    | Ocean Eddies  |         |             |
 | 13   | 2021-03-04    | TBD  |         |             |
-| 14   | 2021-03-06    | Review  |         |    Mid-term         |
+| 14   | 2021-03-06    | Review  |         |    Mid-Term         |
 
 
 
