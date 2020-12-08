@@ -9,8 +9,8 @@ Instructor: Cesar B Rocha
 ### Program
 | Lecture | Date          | Content                              | Reading         |     Assignment |
 |:----:|:--------------|:--------------------------------------| -------------------:|--------------:|
-| 01   | 2021-01-18    | Logistics and Introduction            |                     |               |
-
+| 01   | 2021-01-19    | Logistics and Introduction            |                     |               |
+| 02   | 2021-01-21    | Physical Properties of Seawater       |                     |     HW #1     |
 
 
 
