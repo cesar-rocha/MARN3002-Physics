@@ -1,4 +1,4 @@
-# Physics Module of Introduction to Marine Sciences II
+# Physics Module of Foundations of Marine Sciences II
 Course number: MARN-3002</br>
 Department of Marine Sciences</br>
 University of Connecticut</br>
@@ -9,9 +9,11 @@ Insttructor: Cesar B Rocha
 ### Program
 
 ### Cronograma
-| Lecture | Date          | Content                              | Reading         |
-|:----:|:--------------|:--------------------------------------| -------------------:|
-| 01   | 2021-01-18    | Logistics and Introduction            |                     |
+| Lecture | Date          | Content                              | Reading         |     Assignment |
+|:----:|:--------------|:--------------------------------------| -------------------:|              :|
+| 01   | 2021-01-18    | Logistics and Introduction            |                     |               |
+
+
 
 
 ### My Teaching Philosophy
@@ -26,5 +28,3 @@ Insttructor: Cesar B Rocha
 - A desire to learn
 - The motivation to learn
 - Respect towards your classmates and me.
-
-
