@@ -1,4 +1,4 @@
-# Physics Module of Foundations of Marine Sciences II
+# Foundations of Marine Sciences II, Physics Module
 Course number: MARN-3002</br>
 Department of Marine Sciences</br>
 University of Connecticut</br>
