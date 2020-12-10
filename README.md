@@ -14,7 +14,7 @@ Instructor: Cesar B Rocha
 | 03   | 2021-01-26    | Observational Tools                   |                     |              |
 | 04   | 2021-01-28    | The Oceanic Heat Budget               |                     |     HW #2    |
 | 05   | 2021-02-02    | Global Warming and Sea-level Rise     |                     |              |
-| 06   | 2021-02-04    | Temperature, Salinity and Density Stratification  |         |     HW #3    |
+| 06   | 2021-02-04    |  Stratification?  |         |     HW #3    |
 | 07   | 2021-02-09    | Surface Gravity Waves      |         |        |
 | 08   | 2021-02-11    | Equations of Motion and Coriolis Force      |         |     HW #4    |
 | 08   | 2021-02-16    | Hydrostatic Balance and Pressure Gradients  |         |              |
