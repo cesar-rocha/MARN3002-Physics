@@ -127,14 +127,14 @@ Initially, \PO{} emerged as a branch of Geography. Its principal products were m
 of the distribution of ocean properties from observations collected in multi-year
 transoceanic expeditions, beginning in the 1800s. This oceanic branch of Geography
 developed into the subdiscipline \emph{Descriptive \PO{}}, which aims to quatitatively
-\emph{describe} ocean motions. Historically, this description was developed
+\emph{describe} ocean motions. Historically, this description was built
 with sparse ship-based observations, and more recently, with a combination of
 multi-platform observations and realistic computer simulations.
 
 In the early 1900s, \PO{} also began to be viewed as part of
 Geophysics, the branch of Physics concerned with Earth phenomena. The field of
 \emph{Dynamical \PO{}} emerged, approaching the understanding of ocean flows as a
-fundamental problem in Fluid Mechanics, and studying it with theoretical and computer
+fundamental problem in Fluid Mechanics and studying it with theoretical and computer
 models. A similar historical development occured in
 Atmospheric Sciences, with the advent of Dynamical Meteorology in the late 1800s.
 In fact, Dynamical Meteorology and Dynamical \PO{} are considered sister sciences,
@@ -156,17 +156,18 @@ phenomena. Source: NOAA/GFDL.}
 While today we still talk about observational (descriptive) and theoretical
 (dynamical) oceanography, this division has been significantly eroded in the
 last couple of decades. The goal of a modern observational study is rarely to only survey a particular region; it generally aims to understand the mechanisms behind the observed phenomena. And dynamical process studies,
-both theoretical and numerical, are strongly influenced by ocean observations. Modern
+both theoretical and numerical, are strongly influenced by observations. Modern
 Physical Oceanography focusses on understanding the \emph{physics of ocean processes},
 their causes and consequences, using a combination of observations, theoretical
 fluid mechanics,  and computer models.
 
-\begin{figure}[ht]\label{scales}
+\begin{figure}[ht]
 \centering
 \includegraphics[width=.95\textwidth]{figs/TimeSpaceScales.png}
 \caption{\small Diagram of space and time scales of a number of ocean phenomena.
 In general, larger spatial
 scales are associated with longer time scales. Source: Talley et al., \textit{Descriptive Physical Oceanography}.}
+\label{scales}
 \end{figure}
 
 Ocean physical processes can be local or regional or global, small or large, fast
@@ -179,11 +180,7 @@ the main goal of Physical Oceanography.
 
 In this module of MARN3002, \emph{we will study the basic physics of some of these phenomena
 } from observations and theory. I will emphasize \emph{major concepts and ideas} of \PO. Your
-expected learning outcome is a newfound \emph{physical intuition} for how ocean motions work. Such an intution is critical to learning the details of \PO{} and its relationship to other areas of Oceanography
-and Climate. While Calculus is a pre-requisite for this
-class, I will strive to keep Math at a moderate level, focussing on what the relevant equations mean (what physics they contain) rather than deriving and solving them.
-
-
+expected learning outcome is a newfound \emph{physical intuition} for how ocean motions work. Such an intution is critical to learning the details of \PO{} and its relationship to other areas of Oceanography, including the topics explored in the biology module of this class. While Calculus is a pre-requisite for this class, I will strive to keep Math at a moderate level, focussing on what the relevant equations mean (what physics they contain) rather than deriving and solving them.
 
 
 \section{The physical/geographical setting}
@@ -212,13 +209,13 @@ of Earth's rotation is
 % \marginnote{Recall that\\ 24\,h = 86400\,sec}[1cm]
 |\vec{\Omega}| &= \frac{2\pi}{1\, \text{day}} + \frac{2\pi}{365\, \text{days}}\nonumber\\
                &= \frac{2\pi}{86400\, \text{sec}} + \frac{2\pi}{365 \times 86400 \, \text{sec}}
-               \approx 7.29\, 10^{-5}\, \text{radians}/\text{sec}\per
+               \approx 7.29\, 10^{-5}\, \text{rad}/\text{sec}\per
 \end{align}
 The direction of the rotation vector $\vec{\Omega}$ is perpendicular to the equator, pointing north (see figure \ref{EarthSphere}).
 
-It is natural to use a spherical coodinate system to describe the position on Earth.
+It is natural to use a spherical coodinate system to describe positions and displacements on Earth.
 This consists of the distance from the center of the sphere ($r$) plus two angles $\theta$
-and $\lambda$.  Earth Scientists adopt the conventio of measuring $\theta$ relative to the
+and $\lambda$.  Earth Scientists adopt the convention of measuring $\theta$ relative to the
 equator (the circle in the direction perpendicular to the rotation axis that splits Earth in half). The \emph{latitude} $\theta$ varies from $-90^{\circ}$ (South Pole) to
 $+90^{\circ}$ (North Pole). For mathematical calculations, we almost \emph{alway} measure angles
 in radians (rad). Recall that $360^\circ = 2\pi\,\text{rad}$, so
@@ -227,11 +224,11 @@ in radians (rad). Recall that $360^\circ = 2\pi\,\text{rad}$, so
 \eeq
 Thus, in radians, $\theta$ ranges from $-\pi/2$ to $\pi/2$. Longitude $\lambda$ goes
 around the globe, varying from 0$^\circ$ (0) to 360$^\circ$ (2$\pi$). The reference longitude
-goes through the Greenwich, UK. An equivalent longitude range is from -180$^\circ$ ($-\pi$) to
+passes through the Greenwich, UK. An equivalent longitude range is from -180$^\circ$ ($-\pi$) to
 +180$^\circ$ ($+\pi$), with negative angles west of Greenwhich. The curve along
-constant longitudes are called \emph{meridians}. We refer to longitudianal direction as
+constant longitudes are called \emph{meridians}. We refer to longitudinal direction as
 the \emph{meridional direction}. The latitudinal circles are called {parallels}, and we refer to
-direction along parallels as the \emph{zonal direction}.
+the direction along parallels as the \emph{zonal direction}.
 
 The average radius of Earth is $R = 6371$\,km. Hence one degree of latitude is
 equivalent to:
@@ -256,7 +253,7 @@ to one minute (i.e., one-sixtieth) of latitude:
 \eeq
 
 \subsection{Ocean topography}
-Figure \ref{ETOPO} shows a map of the sea-floor elevation (the ocean bottom topography or bathymetry)
+Figure \ref{ETOPO} shows a map of the sea-floor bathymetry (bottom topography)
 on the global ocean. The values are negative, representing the distance from the sea surface to the
 ocean bottom. These data are from the ETOPO5 dataset, compiled by NOAA's National Center for Environmental Information; the resolution is 5 minutes of latitude (about 9\,km).
 
@@ -267,10 +264,10 @@ ocean bottom. These data are from the ETOPO5 dataset, compiled by NOAA's Nationa
 \label{ETOPO}
 \end{figure}
 
-The ocean topography varies from shallow regions near the continents, ... through .
-The continental margin is an extension of the continent, wherein the seawater depth increases seaward. It has three main components: shelf, slope and elevation. These differentiated primarily by
+Moving seaward from the coast lies the continental margin, an extension of the continent.
+The continental margin has three main components: shelf, slope and rise (or elevation). These differentiated primarily by
 their inclination, the topographic gradient. The continental shelf starts at the coast and is the
-flatter regions of the continental margin. On the shelf, the bottom depth increases by about 1 m
+flattest region of the continental margin. On the shelf, the bottom depth increases by about 1 m
 every 500\,m. In other words, the topographic gradient is 1:500. Continental shelves vary in extension, from 10\,km to 200\,km, width an average with
 of 70\,km. At the seaward edge of the shelf is the shelf break, where the topographic gradient increases
 significantly to 1:20. The average depth at the shelf break is 130\,m. The slope is a narrow and steep region of the continental margin, where the bottom depth rapidly increases seaward. At about 3000-4000\,m, the topographic gradient becomes gentler, given way to the continental elevation or rise, separating the
@@ -291,7 +288,7 @@ probability starts at the deepest levels, moving to the right. The maximum proba
 1 (100\,\%), stating the obvious fact that 100\,\% of the ocean has depths below 0\,m. The topography CDF
 shows that continental shelves (roughly regions shallower than 200\,m) occupy less than 15\,\% of
 the world ocean, and the continental slope accounts for about 5\,\% the total area. Most of the ocean
-is deeper than 2000\,\%, although it is rarely deeper than 8000\,m (\<0.05\,\%).
+is deeper than 2000\,\%, although it is rarely deeper than 6000\,m (\<0.05\,\%).
 
 
 \subsection{The aspect ratio}
@@ -304,8 +301,8 @@ is deeper than 2000\,\%, although it is rarely deeper than 8000\,m (\<0.05\,\%).
 \end{figure}
 
 
-While most of the ocean is deep for our human scale, oceanic basis are extremelly shallow
-on a planetary scale. Even the deepest point in the Mariana Trench is tiny in
+While most of the ocean is deep for our human scale, oceanic basins are extremelly shallow
+on a planetary scale. Even the deepest point in the Mariana Trench is shalloq in
 comparison with Earth's radius or circumference. The ocean is a \textit{thin shell} in
 outter 0.08\,\% of Earth. In fact, when we plot long vertical sections of ocean topography,
 as in Figure \ref{ETOPOsec}, the vertical coordinate needs to be grossely exageraged in order
@@ -314,9 +311,8 @@ basin spans 60$^\circ$ of longitude at 41.3179$^\circ$\,N. Thus, the North Atlan
 \beq
 60^{\circ}\,\text{longitude} \times \frac{111.20\,\text{km} \times \cos 41.3179^\circ}{1^\circ\,\text{longitude}} \approx 5011\, \text{km}\per
 \eeq
-The average depth of the North Atlantic at this latitude is about 3000\,m.
-
-To calculate the relative size of the North Atlantic depth to its width, we calculate
+The average depth of the North Atlantic at this latitude is about 3000\,m. To estimate
+the relative size of the North Atlantic depth to its width, we calculate
 their ratio using the same \emph{units}:
 \beq
 \frac{\text{depth}}{\text{width}} = \frac{3000\,\text{\cancel{m}}}{5011 10^3\,\cancel{\text{m}}}
@@ -325,19 +321,30 @@ their ratio using the same \emph{units}:
 In other words, the North Atlantic thickness is about 0.06\,\% of its width. The
 relative size of thickness to width is called \textbf{aspect ratio}. The aspect
 ratio is a \emph{non-dimensional number}. For most practical purposes, we are more
-interested in the order of magnitude of the terms. We thus
+interested in the orders of magnitude. We thus
 define the aspect ratio as
 \begin{empheq}[box=\mybox]{align}\label{aspectratio}
 \alpha \defn \frac{H}{L} \com
 \end{empheq}
-where $H$ and $L$ is the order of magnitude (or scale) of the thickness and width. For the
+where $H$ the order of magnitude of thickness (or vertical length scale) and $L$ is the
+order of magnitude of width (or horizontal length scale). For the
 North Atlantic, $H \sim 10^3\,\text{m}$ and $L \sim 10^6\,\text{m}$, and so $\alpha = 10^{-3}$.
 
 As we will see, this tiny aspect ratio of the ocean is a powerful geometrical constraint on the
-ocean circulation, because it implies that many circulation features are much more wide than deep.
-For example, the Gulf Stream, the warm current that flows poleward off the US East coast, is about 200\,km and 2000\,m deep. The aspect ratio of the current is $10^{-2}$. As we will see, small aspect ratio flows have tiny vertical velocities compared to horizontal velocities. The Gulf Stream flows laterally.
+ocean circulation, because it implies that many circulation features are much wider than deep.
+For example, the Gulf Stream---the warm current that flows poleward off the US East coast--is about 100\,km and 1000\,m deep. The aspect ratio of the current is $10^{-2}$. As we will see, small aspect ratio flows have tiny vertical velocities compared to horizontal velocities. To an excellent approximation,
+the Gulf Stream flow is horizontal.
 
-
+\subsection{The local plane approximation}
+Because the ocean is a thin spherical shell, we may employ a plane approximation to
+avoid spherical coordinates when studying motions on regional and local domains. For this
+approximation to be valid, the lateral scale of the domain must much smaller than Earth's radius:
+\beq
+\frac{L}{R} \ll 1\per
+\eeq
+In the cartesian system of the local plane, we generally align the x-axis with the zonal direction
+and the y-axis with the meridional direction. Sometimes, there exists a better coordinate system
+for a particular domain. For example, for studying motions in the Long Island Sound, it is convinient to align the x-axis in the along-sound direction and the y-axis in the across-sound direction.
 
 \end{document}
 
