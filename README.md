@@ -7,8 +7,8 @@ Instructor: Cesar B Rocha
 ## General Course Information
 
 ### Program
-| Lecture | Date          | Content                              |: Reading         :|     Assignment |
-|:----:|:--------------|:--------------------------------------| -------------------:|--------------|
+| Lecture | Date          | Content                              | Reading         |     Assignment |
+|:----:|:--------------|:--------------------------------------|:-------------------:|--------------|
 | 01   | 2021-01-19    | Logistics and Introduction            |  Stewart Chap. 3                 |              |
 | 02   | 2021-01-21    | Physical Properties of Seawater       |                     |     HW #1    |
 | 03   | 2021-01-26    | Observational Tools                   |                     |              |
