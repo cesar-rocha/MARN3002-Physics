@@ -9,7 +9,7 @@ Instructor: Cesar B Rocha
 ### Program
 | Lecture | Date          | Content                              | Reading         |     Assignment |
 |:----:|:--------------|:--------------------------------------|:-------------------:|--------------|
-| 01   | 2021-01-19    | Logistics and Introduction [[slides](./lectures/01/01_introduction_slides.pdf), [notes](lectures/01/01_introduction.pdf)]            |  Stewart Chap. 3                 |              |
+| 01   | 2021-01-19    | Logistics and Introduction [[slides](./lectures/01/01_introduction_slides.pdf), [notes](lectures/01/01_introduction.pdf)]       |  Stewart Chap. 3                 |              |
 | 02   | 2021-01-21    | Physical Properties of Seawater              |     HW #1    |
 | 03   | 2021-01-26    | Observational Tools                   |                     |              |
 | 04   | 2021-01-28    | The Oceanic Heat Budget               |                     |     HW #2    |
