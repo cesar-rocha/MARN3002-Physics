@@ -26,14 +26,6 @@ Instructor: Cesar B Rocha
 | 14   | 2021-03-06    | Review  |         |    Mid-Term         |
 
 
-
-### My Teaching Philosophy
-
-### What You Should Expect From Me
-
-- Dedication to...
-- Prioritization of your learning...
-
 ### What I Expect From You
 
 - A desire to learn
